@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>How to Use This App</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans JP", sans-serif; line-height: 1.7; margin: 0; }
+    header { padding: 18px 16px; border-bottom: 1px solid #ddd; }
+    main { padding: 16px; max-width: 900px; margin: 0 auto; }
+    h1 { font-size: 20px; margin: 0; }
+    h2 { font-size: 18px; margin-top: 28px; }
+    p, li { font-size: 15px; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 12px; background: #f2f2f2; margin-left: 8px; }
+    aside { border-left: 4px solid #7e57c2; background: #faf7ff; padding: 12px 12px; margin: 12px 0; border-radius: 8px; }
+    code { background: #f6f6f6; padding: 2px 4px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>How to Use This App <span class="badge">LoopLog</span></h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>About the Home Screen</h2>
+      <p>
+        You can create a new group or task using the “+” button at the bottom right of the Home screen.<br>
+        Created groups are displayed on the Home screen, and tasks within each group are shown in order of the nearest upcoming execution date.
+      </p>
+
+      <h4>Group Actions</h4>
+      <ul>
+        <li>Reorder groups: Long-press and drag anywhere inside a group card to move it up or down</li>
+        <li>Collapse / expand: Tap the chevron icon on the right side of the group title bar</li>
+        <li>Open the group task list: Tap the group title bar</li>
+      </ul>
+
+      <h4>Group Task List Screen</h4>
+      <ul>
+        <li>Edit group: Tap the edit icon in the top-right corner to change the group name, group color, and the number of tasks shown
+          (The “number of tasks shown” refers to how many tasks are displayed inside the group card on the Home screen.)</li>
+        <li>Delete group: Tap the delete icon in the top-right corner to remove the group
+          (Note: All tasks belonging to the group will also be deleted.)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Executing Tasks</h2>
+      <p>
+        Tap a task on the Home screen or on a group task list to open the Task Details screen.<br>
+        From the “Add New Execution Record” button on the Task Details screen, you can record the execution date and time, a memo, and one image
+        (memos and images are optional).
+      </p>
+
+      <ul>
+        <li>After execution, the next execution date is automatically updated based on the configured repeat interval.</li>
+        <li>For irregular tasks, you can turn off the repeat setting.</li>
+        <li>Past records can be viewed, edited, or deleted from “Task Details” → “Execution History.”</li>
+        <li>“Skip this execution” skips the current execution without creating a record.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>About Notifications</h2>
+      <p>
+        You can enable notifications and set the notification timing from the task creation or task edit screen.
+      </p>
+
+      <aside>
+        <strong>Note:</strong>
+        Notifications may be delivered later than the scheduled time. This is due to system limitations related to Google’s permission policies
+        (such as “Exact Alarms”) and is not a malfunction of the app.
+      </aside>
+    </section>
+  </main>
+</body>
+</html>
